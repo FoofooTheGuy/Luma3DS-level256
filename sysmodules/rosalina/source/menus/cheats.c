@@ -2075,8 +2075,8 @@ void RosalinaMenu_Cheats(void)
     u64 titleId = 0;
     u32 pid = Cheat_GetCurrentProcessAndTitleId(&titleId);
 
-    if (isOnlineSupportedTitle(titleId))
-        return;
+    //if (isOnlineSupportedTitle(titleId))
+    //    return;
 
     if (titleId != 0)
     {
